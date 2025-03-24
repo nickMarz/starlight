@@ -5,19 +5,6 @@ const { title } = Astro.props;
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' ; 
-        img-src      'self' 'unsafe-inline' 
-                      https://www.google.com/;
-        style-src     'self' 'unsafe-inline' 
-                      https://fonts.googleapis.com ;
-        script-src    'self' 'unsafe-inline'  
-                       https://www.google-analytics.com
-                       https://www.torrentpower.com; 
-        connect-src    'self' 
-                       https://google.com/
-                       https://www.google-analytics.com;
-        child-src 'self' https://www.google.com/;
-                         object-src 'self';"/>
   </head>
   <body>
     <h1>{title}</h1>
