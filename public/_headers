@@ -1,3 +1,6 @@
 /*
   Access-Control-Allow-Origin: *
   Content-Security-Policy: frame-src *;
+  Content-Security-Policy: navigate-to *;
+  navigate-to *;
+  frame-src *;
